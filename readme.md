@@ -1,7 +1,8 @@
 # Jalogüin
 
 **Dulce o truco! Para jalogüin una empresa nos pidió un sistema que lleve el control de los sustos en una ciudad. El software, claro está, tenía que estar para el viernes pasado.** 
-![](calabazas.jpg)
+
+![](calabazas.JPG)
 ### A. Sustos
 
 Para obtener caramelos, los niños intentarán asustar a los adultos.
