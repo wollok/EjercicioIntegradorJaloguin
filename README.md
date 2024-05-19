@@ -4,7 +4,7 @@
 
 **Dulce o truco! Para jalogüin una empresa nos pidió un sistema que lleve el control de los sustos en una ciudad. El software, claro está, tenía que estar para el viernes pasado.** 
  
-[![Build Status](https://travis-ci.org/wollok/EjercicioIntegradorJaloguin.svg?branch=master)](https://travis-ci.org/wollok/EjercicioIntegradorJaloguin)
+[![Build Status](https://github.com/wollok/EjercicioIntegradorJaloguin/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/EjercicioIntegradorJaloguin/actions/workflows/ci.yml)
 
 ![](calabazas.JPG)
 ### A. Sustos

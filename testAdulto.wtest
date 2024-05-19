@@ -12,7 +12,7 @@ describe "test jaloguin" {
 	var frankenstein = new TrajeTerrorifico()
 	var legion = new Legion(chicoConActitud,chicoSinActitud)
 
-	fixture {
+	method initialize() {
 		chicoConActitud.ponerse(frankenstein)
 		chicoSinActitud.ponerse(winiePoo)
 		
