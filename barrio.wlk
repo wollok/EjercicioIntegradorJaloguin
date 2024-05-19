@@ -1,17 +1,11 @@
-class Barrio{
+class Barrio {
 	const chicos
 	
-	constructor(_chicos) {chicos = _chicos}
+	method elementosUsados() = chicos.filter(
+		{ chico => chico.masDeNCaramelos(10) }
+	).flatmap({ chico => chico.elementos() }).asSet()
 	
-	method elementosUsados(){
-		return chicos
-			.filter{c => c.masDeNCaramelos(10)}
-			.flatmap{c => c.elementos()}
-			.asSet()
-	}
-	method chicosConMasCaramelos() {
-		return chicos 
-			.sortedBy({ x, y => x.caramelos() > y.caramelos()})
-			.take(3)
-	}
+	method chicosConMasCaramelos() = chicos.sortedBy(
+		{ chico1, chico2 => chico1.caramelos() > chico2.caramelos() }
+	).take(3)
 }

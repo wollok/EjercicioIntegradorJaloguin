@@ -3,19 +3,18 @@ import adultos.*
 import legion.*
 
 describe "test jaloguin" {
-	var adulto = new Adulto()
-	var necio = new Necio()
-	var abuelo = new Abuelo()
-	var chicoConActitud = new Chico(10,20)
-	var chicoSinActitud = new Chico(0,5)
-	var winiePoo = new TrajeTierno() 
-	var frankenstein = new TrajeTerrorifico()
-	var legion = new Legion(chicoConActitud,chicoSinActitud)
+	const adulto = new Adulto()
+	const necio = new Necio()
+	const abuelo = new Abuelo()
+	const chicoConActitud = new Chico(actitud = 10, caramelos = 20)
+	const chicoSinActitud = new Chico(actitud = 0, caramelos = 5)
+	const winiePoo = new TrajeTierno() 
+	const frankenstein = new TrajeTerrorifico()
+	const legion = new Legion(integrantes = [chicoConActitud, chicoSinActitud])
 
 	method initialize() {
 		chicoConActitud.ponerse(frankenstein)
 		chicoSinActitud.ponerse(winiePoo)
-		
 	}
 	
 	test "Un chico no recibe caramelos al asustar a un necio" {
